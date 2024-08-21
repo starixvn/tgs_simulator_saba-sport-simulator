@@ -1,0 +1,13 @@
+{
+  "name": "@s1/saba-sport-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start:server": "npm start --workspace=server"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@s1/saba-sport-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts | pino-pretty"
+  },
+  "dependencies": {
+    "ejs": "3.1.10",
+    "express": "4.19.2",
+    "lodash": "4.17.21",
+    "pino": "9.3.2"
+  },
+  "devDependencies": {
+    "@types/ejs": "3.1.5",
+    "@types/express": "4.17.21",
+    "@types/lodash": "4.17.7",
+    "nodemon": "3.1.4",
+    "pino-pretty": "11.2.2",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
+  }
+}
