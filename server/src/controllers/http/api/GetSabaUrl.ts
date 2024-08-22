@@ -6,7 +6,7 @@ export default function ({ router, logger }: HTTPContext) {
     res.send({
       error_code: 0,
       message: "",
-      Data: "https://google.com",
+      Data: "https://google.com/DepositProcessLogin?token=Od1C0624VEaBnyVpR/QSfQ",
     });
   });
 }
