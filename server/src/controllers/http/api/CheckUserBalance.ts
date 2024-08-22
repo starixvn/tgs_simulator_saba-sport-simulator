@@ -1,6 +1,6 @@
 export default function ({ router, logger }: HTTPContext) {
   router.post("/", (req, res) => {
-    logger.info(req.body);
+    logger.info("CheckUserBalance", req.body);
 
     res.send({
       error_code: 0,
