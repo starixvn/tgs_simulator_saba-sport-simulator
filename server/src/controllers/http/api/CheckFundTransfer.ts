@@ -1,6 +1,7 @@
 export default function ({ router, logger }: HTTPContext) {
   router.post("/", (req, res) => {
-    logger.info("CheckFundTransfer", req.body);
+    logger.info("CheckFundTransfer");
+    logger.info(req.body);
 
     res.send({
       error_code: 0,

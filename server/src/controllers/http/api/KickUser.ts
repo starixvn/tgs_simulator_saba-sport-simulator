@@ -1,6 +1,7 @@
 export default function ({ router, logger }: HTTPContext) {
   router.post("/", (req, res) => {
-    logger.info("KickUser", req.body);
+    logger.info("KickUser");
+    logger.info(req.body);
 
     res.send({
       error_code: 3,
